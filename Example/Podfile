@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CountryCodeTextField_Example' do
+  pod 'CountryCodeTextField', :path => '../'
+
+  target 'CountryCodeTextField_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module CountryCodeTextField {
+  umbrella header "CountryCodeTextField-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - CountryCodeTextField (0.1.0)
+
+DEPENDENCIES:
+  - CountryCodeTextField (from `../`)
+
+EXTERNAL SOURCES:
+  CountryCodeTextField:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CountryCodeTextField: 90b112aef1a3cf0e778fb33ce7a4db95d5b94104
+
+PODFILE CHECKSUM: 3f8dc93a731f433efe04c6cb4d7b81274d73f6db
+
+COCOAPODS: 1.4.0
