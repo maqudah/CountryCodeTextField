@@ -30,10 +30,10 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'CountryCodeTextField/Classes/**/*'
+  s.source_files = 'Classes/**/*'
   
   s.resource_bundles = {
-    'CountryCodeTextField' => ['Assets/Settings.bundle/*']
+    'CountryCodeTextField' => ['Assets/Settings.bundle']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

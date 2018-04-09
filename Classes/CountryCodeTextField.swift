@@ -172,7 +172,7 @@ import UIKit
             let frameworkBundle = Bundle(for: self.classForCoder)
             
             print(frameworkBundle)
-            if let docPath = frameworkBundle.path(forResource: "Settings.bundle/Countries Data/Codes", ofType: "json") {
+            if let docPath = frameworkBundle.path(forResource: "CountryCodeTextField.bundle/Settings.bundle/Countries Data/Codes", ofType: "json") {
                 do {
                     let data = try Data(contentsOf: URL(fileURLWithPath: docPath), options: .mappedIfSafe)
                     let jsonResult = try JSONSerialization.jsonObject(with: data, options: .mutableLeaves)
@@ -261,7 +261,7 @@ import UIKit
         codeLabel.centerYAnchor.constraint(equalTo: view.centerYAnchor, constant: 0).isActive = true
         codeLabel.numberOfLines = 0
         
-        let img = UIImage.init(named: "Settings.bundle/Countries Data/Flags/"+self.countriesCodes[row].2.uppercased(), in: Bundle(for: self.classForCoder), compatibleWith: nil)
+        let img = UIImage.init(named: "CountryCodeTextField.bundle/Settings.bundle/Countries Data/Flags/"+self.countriesCodes[row].2.uppercased(), in: Bundle(for: self.classForCoder), compatibleWith: nil)
         let flagImage: UIImageView = UIImageView.init(image: img)
         
         view.addSubview(flagImage)
